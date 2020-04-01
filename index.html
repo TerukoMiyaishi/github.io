@@ -1,90 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>クラシックの小部屋</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">作曲家一覧</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
+  <head>
+    <meta charset="utf-8">
+    <title>classicの小窓</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">classicの小窓</div>
+      <div class="header-list">
+        <ul>
+          <li>押さえておきたい名曲</li>
+          <li>classicの豆知識</li>
+          <li>リクエスト</li>
+        </ul>
       </div>
     </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>草のそよぎにも、小川のせせらぎにも、<br>耳を傾ければそこに音楽がある。 CREATIVE.</h1>
-      <p>クラシックの小部屋はオンラインでフリー楽曲が楽しめるサービスです。<br>気に入った楽曲がありましたら、どうぞご自由にご利用ください。。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>The Earth without ART is just<span> "EH"</span></h1>
+        <h2>classicの小窓へようこそ</h2>
       </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Lesten Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>モーツァルト</p>
-          </div>
-          <p class="text-contents">クラシックの聖地であるオーストリア・ウィーンの天才音楽家として、18世紀の終盤、その伝統の基礎を作った存在です。</p>
+
+      <div class="contents">
+        <h3 class="section-title">作曲家ミニ辞典</h3>
+        <div class="contents-item">
+          <img src="https://img.freepik.com/free-photo/_121-62844.jpg?size=338&ext=jpg">
+          <p>ベートーヴェン</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>ショパン</p>
-          </div>
-          <p class="text-contents">ピアノ曲がまだ発展途上だった19世紀前半、その表現の可能性を追求し、. 多くの作品を生み出したポーランドの作曲家です。</p>
+        <div class="contents-item">
+          <img src="https://publicdomainq.net/images/201710/10s/publicdomainq-0014242aee.jpg">
+          <p>モーツァルト</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>バッハ</p>
-          </div>
-          <p class="text-contents">バロック音楽を総合し，のちの古典派を暗示する一面ももつ，音楽史上最大の作曲家の一人。</p>
+        <div class="contents-item">
+          <img src="https://lh3.googleusercontent.com/proxy/XWdRq3-v6XxWnPXUVC3sy-Mw_zc_EYVQowBXuPTnNxXeIqT-Hg-44M2o0WRNElgIDXZIzDO2QEMfreRdk761eV-GpvtY1vHflmKC32Wwc-JJ">
+          <p>バッハ</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>ベートーベン</p>
-          </div>
-          <p class="text-contents">ウィーン古典派様式の完成者で，西洋音楽の代表的巨匠の一人。</p>
+        <div class="contents-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Liszt_%28Lehmann_portrait%29.jpg/1200px-Liszt_%28Lehmann_portrait%29.jpg">
+          <p>フランツリスト</p>
         </div>
       </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>あなたのお気に入りの曲は見つかりましたか？</h2>
-        <h3>Let's click here. For listen to new classic music!</h3>
+
+      <div class="contact-form">
+        <h3 class="section-title">リクエスト</h3>
+        <p>メールアドレス（必須）</p>
+        <!-- <input>要素を追加してください -->
+        <input>
+
+        <p>リクエスト内容（必須）</p>
+        <!-- <textarea>要素を追加してください -->
+        <textarea></textarea>
+
+        <p>※必須項目は必ずご入力ください</p>
+        <!-- <input>要素を追加してください -->
+        <input class="contact-submit" type="submit" value="送信">
+
       </div>
-      <span class="btn message">さっそく曲をリクエストする</span>
     </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>クラシックの小部屋</p>
+
+    <div class="footer">
+      <div class="footer-logo">classicの小窓</div>
+      <div class="footer-list">
+        <ul>
+          <li>管理人について</li>
+          <li>楽曲一覧</li>
+          <li>リクエスト</li>
+        </ul>
+      </div>
     </div>
-  </footer>
-</body>
+  </body>
 </html>
